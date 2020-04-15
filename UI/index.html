@@ -1,0 +1,41 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<script src="./jquery.js"></script>
+	<title>Sign in</title>
+</head>
+<body>
+	<header>
+		<div class="topbar">
+			<button id="sign1" align="center">Sign in</button>
+			<button id="sign2" align="center">Signup</button>
+		</div>
+		<div class="signin">
+			<form class="form1" action="auth_login" method="POST">
+				<input class="signin_details " type="text" name="rollno" align="center" placeholder="Roll no">
+				<input class="signin_details" type="password" name="password" align="center" placeholder="Password">
+				<input class="submit1" align="center" type="submit">
+			</form>
+			<form class="form2" action="auth_signup" method="POST">
+				<input class="signup_details" id="1" name="username" type="text" align="center" placeholder="Username">
+				<input class="signup_details" id="2" name="rollno" type="text" align="center" placeholder="Roll no">
+				<input class="signup_details" id="3" name="password" type="password" align="center" placeholder="Password">
+				<input class="signup_details"  name="confirm_password" type="password" align="center" placeholder="Confirm Password">
+				<input class="submit1" align="center" type="submit">
+			</form>
+		</div>
+	</header>
+	<script type="text/javascript">
+		$("#sign1").click(function(){
+			$(".form1").css("display","block");
+			$(".form2").css("display","none");
+		});
+		$("#sign2").click(function(){
+			$(".form1").css("display","none");
+			$(".form2").css("display","block");
+		});
+	</script>
+</body>
+</html>

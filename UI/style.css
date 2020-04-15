@@ -1,0 +1,201 @@
+body {
+		font-family: 'Ubuntu', sans-serif;	
+	}
+	header{
+		background-size:cover;
+		background-position:center;
+	}
+	.signin {
+        background-color:#ffff;
+        width: 450px;
+        height: 450px;
+        margin: 10px 20px 40px 440px;
+        border-radius: 1.5em;
+	}
+	.topbar{
+		margin-left:440px;
+		margin-top:40px;
+	}
+    #sign1 {
+        padding-top: 10px;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+		margin-right:2%;
+		margin-left:4%;
+		border-radius:5em;
+		background: #3f51b5;
+		color: #fff;
+		padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;		
+	}
+	#sign2 {
+        padding-top: 10px;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+		border-radius:5em;
+		background: #3f51b5;
+		color: #fff;
+		padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+	.center{
+		position:absolute;
+		top:50%;
+		left:50%;
+		transform:translate(-50%,50%);
+	}
+    .signin_details {
+		width: 80%;
+		color: rgb(38, 50, 56);
+		font-weight: 800;
+		font-size: 30px;
+		letter-spacing: 1px;
+		background: rgba(136, 126, 126, 0.04);
+		padding: 20px 40px;
+		border:1px solid grey;
+		border-radius: 20px;
+		box-sizing: border-box;
+		margin-bottom: 50px;
+		margin-left: 46px;
+		text-align: center;
+		margin-bottom: 27px;
+		font-family: 'Ubuntu', sans-serif;
+    }
+    .signup_details {
+		width: 80%;
+		color: rgb(38, 50, 56);
+		font-weight: 800;
+		font-size: 20px;
+		letter-spacing: 1px;
+		background: rgba(136, 126, 126, 0.04);
+		padding: 10px 20px;
+		border:1px solid grey;
+		border-radius: 20px;
+		border-radius: 20px;
+		box-sizing: border-box;
+		margin-bottom: 50px;
+		margin-left: 46px;
+		text-align: center;
+		margin-bottom: 27px;
+		font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .form1 {
+        padding-top: 40px;
+		display:block;
+	}
+    .form2 {
+        padding-top: 40px;
+		display:none;
+	}
+    .pass1 {
+        width: 80%;
+		color: rgb(38, 50, 56);
+		font-weight: 800;
+		font-size: 30px;
+		letter-spacing: 1px;
+		background: rgba(136, 126, 126, 0.04);
+		padding: 20px 40px;
+		border: none;
+		border-radius: 20px;
+		outline: none;
+		box-sizing: border-box;
+		border: 2px solid rgba(0, 0, 0, 0.02);
+		margin-bottom: 50px;
+		margin-left: 46px;
+		text-align: center;
+		margin-bottom: 27px;
+		font-family: 'Ubuntu', sans-serif;
+    }
+	.pass2 {
+        width: 80%;
+		color: rgb(38, 50, 56);
+		font-weight: 800;
+		font-size: 20px;
+		letter-spacing: 1px;
+		background: rgba(136, 126, 126, 0.04);
+		padding: 10px 20px;
+		border: none;
+		border-radius: 20px;
+		outline: none;
+		box-sizing: border-box;
+		border: 2px solid rgba(0, 0, 0, 0.02);
+		margin-bottom: 50px;
+		margin-left: 46px;
+		text-align: center;
+		margin-bottom: 27px;
+		font-family: 'Ubuntu', sans-serif;
+    }
+    
+   
+    .un:focus, .pass:focus {
+        border: 2px solid rgba(0, 0, 0, 0.18) !important;
+	}
+	.submit1 {
+		cursor: pointer;
+        border-radius: 2em;
+        background:#3f51b5;
+		color: #fff;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-family: 'Ubuntu', sans-serif;
+        margin-left: 35%;
+        font-size: 20px;
+	}
+    
+    .forgot {
+        color: #E1BEE7;
+        padding-top: 25px;
+		
+    }
+    
+    a {
+        color: #E1BEE7;
+        text-decoration: none;
+	}
+	.screen1{
+		height:100%;
+		position: fixed;
+		padding-top: 20px;
+	}
+	.left {
+		left:0;
+		background-color: #111;
+		width:20%;
+	}
+	.right {
+		right:0;
+		background-color:red;
+		width:80%;
+	}
+	.file{
+		font-size:16px;
+		margin:40px 10px 50px 50px;
+		display:block;
+	}
+	.submit{
+		cursor: pointer;
+        border-radius:2em;
+        color: #fff;
+        background:#3f51b5;
+        border: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-family: 'Ubuntu', sans-serif;
+        margin-left:7%;
+		font-size:16px;
+    }
+	.form3{
+		margin:11% 24% 10% 26%;
+		border:10px;
+	}

@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="./style.css">
+		<script src="./jquery.js"></script>
+		<title>File Upload</title>
+	</head>
+	<body>
+		<form class="form3">
+			<h2>Upload a file</h2>
+			<input class="file" align="left" type="file" id="profile">
+			<input class="submit" align="left" id="uploadButton" type="button" value="submit">
+		</form>
+		<script type="text/javascript">
+		$("#uploadButton").click(function() {
+			var fd = new FormData();
+			var files = $('#profile')[0].files[0];
+			fd.append('file',files);
+			$.ajax({
+				url: '/upload',
+				type: 'post',
+				data: fd,
+				contentType: false,
+				processData: false,
+				success: function(response){
+					alert(response);
+				},
+			});
+		})
+		</script>
+	</body>
+</html>
