@@ -6,9 +6,10 @@ var path = require('path');
 const multer=require('multer');
 var connection = mysql.createConnection({
 	host     : 'localhost',
+	port     : '3306',
 	user     : 'root',
 	password : 'root',
-	database : 'shopping'
+	database : 'shopping',
 });
 var app = express();
 app.use(session({
